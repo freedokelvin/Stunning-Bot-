@@ -1,6 +1,0 @@
- def __init__(self, main_bot):
-        super().__init__()
-        if 'update_embeds' in dir(main_bot):
-            self.main_bot = main_bot
-        else:
-            self.main_bot = None
